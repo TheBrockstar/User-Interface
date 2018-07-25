@@ -54,7 +54,8 @@ table {
 
 html, body {
     height: 100%;
-    font-family: 'Titillium Web', sans-serif;
+	font-family: 'Share Tech', sans-serif;
+	background-color:whitesmoke;
 }
 
 h1, h2, h3, h4, h5 {
@@ -78,20 +79,37 @@ div {
 	max-width: 876px;
 }
 
+header {
+	    position: fixed;
+    width: 100%;
+	top: 0;
+	left: 0;
+	background-color:dodgerblue;
+	margin:none;
+}
+
+.navcontainer {
+	display:block;
+	width: 100%;
+	margin: auto;
+	max-width: 876px;
+}
+
 header nav{
-	display: inline-block;
-	margin-right: 20px;
-	padding: 40px 0;
-	width: 76%;
+    display: inline-block;
+    margin-right: 20px;
+    padding: 40px 0;
+	width: 75%;
 }
 
 header nav label {
 	margin-right: 8%;
-	color: silver;
+	color: whitesmoke;
 	cursor: pointer;
 }
 header nav label:hover {
-	color: rgb(119, 119, 119);
+	color: lawngreen;
+	text-shadow:lightgreen 0 0 2px;
 }
 
 
@@ -107,13 +125,14 @@ h1 {
 .banner {
 	border-bottom: 1px solid #000;
 	padding-bottom: 80px;
+	margin-top: 136px;
 }
 
 .banner div{
 	display:inline-block;
 	text-align: center;
 	padding-top: 50px;
-    width: 50%;
+    width: 56%;
 }
 
 .banner img {
